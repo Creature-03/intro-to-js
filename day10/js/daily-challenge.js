@@ -1,3 +1,6 @@
+// WIP
+
+
 // -- get variables --
 const user = document.getElementById('username');
 const pw = document.getElementById('password');
