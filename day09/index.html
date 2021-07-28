@@ -7,6 +7,7 @@
     <title>Document</title>
     <!-- <script src="./js/classwork.js" defer></script> -->
     <script src="./js/daily-challenge.js" defer></script>
+    <script src="./js/element-creater.js" defer></script>
 </head>
 <body>
     <input type="text" id='firstName' placeholder="First Name">
@@ -19,6 +20,52 @@
     <br>
     <br>
     <button id='submit'>Submit</button>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <form action="" name='designer'>
+        <div>
+            <label for="words">Text: </label>
+            <input type="text" name='words' id='words'>
+            <br>
+            <br>
+            <label for="bgColor">Background Color: </label>
+            <input type="color" name='bgColor' id='bgColor'>
+            <br>
+            <label for="textColor">Text Color: </label>
+            <input type="color" name="textColor" id="textColor">
+            <br>
+            <br>
+            <label for="padding">Padding: </label>
+            <input type="number" name='padding' id='padding'>
+            <br>
+            <label for="textAlign">Text Align: </label>
+            <select name="textAlign" id="textAlign">
+                <option value="left">Left</option>
+                <option value="center">Center</option>
+                <option value="right">Right</option>
+            </select>
+            <br>
+            <br>
+            <label for="borderWidth">Border Width: </label>
+            <input type="number" name="borderWidth" id='borderWidth'>
+            <br>
+            <label for="borderStyle">Border Style</label>
+            <select name="borderStyle" id="borderStyle">
+                <option value="solid">Solid</option>
+                <option value="dashed">Dashed</option>
+            </select>
+            <br>
+            <label for="borderColor">Border Color: </label>
+            <input type="color" name="borderColor" id="borderColor">
+            <br>
+            <button>Go</button>
+        </div>
+    </form>
+
+    <h1></h1>
     
 </body>
 </html>
