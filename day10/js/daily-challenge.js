@@ -26,6 +26,8 @@ function pwCheck(pw, repeatPw){
 
 }
 
+document.querySelector
+
 // -- end functions --
 
 // add event listeners
