@@ -15,19 +15,6 @@ function btnCheck() {
         submitButton.disabled = false;
     }
 }
-
-function pwCheck(pw, repeatPw){
-    if (pw == repeatPw){
-        alert('Registration successful.')
-    }
-    else{
-        alert('Your passwords do not match.')
-    }
-
-}
-
-document.querySelector
-
 // -- end functions --
 
 // add event listeners
